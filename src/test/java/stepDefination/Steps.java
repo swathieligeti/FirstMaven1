@@ -161,7 +161,7 @@ public class Steps extends baseclass {
 	public void user_can_view_confirmation_message(String string) throws InterruptedException {
 	    
 	    Assert.assertTrue(driver.findElement(By.tagName("body")).getText().contains("The new customer has been added successfully."));
-	
+	   System.out.println("The new customer has been added sucessfully");
 	}
 	
 	@Then("click logout")
